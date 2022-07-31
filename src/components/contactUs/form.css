@@ -1,0 +1,27 @@
+.form-control {
+  border: 2px solid black;
+  width: fit-content;
+}
+
+.form-control > div {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-control > div > input, .form-control > div > textarea {
+  margin: 0px 20px;
+  font-size: 16px;
+  width: 200px;
+  padding: 10px 15px;
+}
+
+
+.submit-btn {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
